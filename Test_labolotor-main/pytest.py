@@ -1,5 +1,5 @@
 import pytest
-from Test_2 import (
+from tested_2 import (
     polindrome,
     back_string,
     vowels,
@@ -8,9 +8,9 @@ from Test_2 import (
 
 def test_summation():
     """Testing Summation function"""
-    assert palindrome("malayalam") == "malayalam"
-    assert palindrome("deed") == "deed"
-    assert palindrome("level") == "level"
+    assert polindrome("malayalam") == "malayalam"
+    assert polindrome("deed") == "deed"
+    assert polindrome("level") == "level"
 
 def test_subtraction():
     """
